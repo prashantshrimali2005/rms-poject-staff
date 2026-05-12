@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <>
             <div className=' bg-[#f8edd5ce] w-60  min-h-screen '>
-            <ul className='text-xl p-2 text-[#675F50]   leading-12'>
+            <ul className='text-xl p-2 text-[#7b5a11cf] font-semibold  leading-12'>
               
               <div className='flex justify-center'>
                 <img src={logo} alt="logo" className='w-30  cursor-pointer rounded-full mb-10' />
@@ -54,11 +54,7 @@ const Sidebar = () => {
                    <ChartNoAxesCombined /> <span>Report</span>
                   </a>
                 </li>
-                <li>
-                  <a href="#" className='flex items-center gap-2 p-2 rounded-lg  hover:bg-[#F9E4C0] hover:border-b-2 transition-all duration-50'>
-                    <Bolt /> <span>Settings</span>
-                  </a>
-                </li>
+                
             </ul>
             </div>
       </>          
