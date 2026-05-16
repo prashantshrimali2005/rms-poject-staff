@@ -4,9 +4,9 @@ import { Trash } from 'lucide-react'
 
 const Staff = () => {
   return (
-    <div className='staff-main p-8 w-full'>
+    <div className='staff-main p-8 w-full '>
         <div className='flex justify-between items-center'>
-            <div className='staff-left text-4xl text-[#7b5a11cf] m-8 font-semibold'>
+            <div className='staff-left text-4xl text-[#7b5a11cf] top-0 ml-10 font-semibold'>
             <h1 >Staff Members</h1>
             </div>
          
@@ -18,11 +18,11 @@ const Staff = () => {
          <table className="w-250  border-gray-300 m-10 rouded-lg ">
           <thead>
             <tr className='bg-[#f8edd5ce]'>
-            <th className='border-0 p-5  text-[#7b5a11cf]'>Name</th>
-            <th className='border-0 p-5 text-[#7b5a11cf]'>Roll</th>
-            <th className='border-0 p-5 text-[#7b5a11cf]'>Phone</th>
-            <th className='border-0 p-5 text-[#7b5a11cf]'>Status</th>
-            <th className='border-0 p-5 text-[#7b5a11cf]'>Action</th>
+            <td className='border-0 p-5  text-[#7b5a11cf]'>Name</td>
+            <td className='border-0 p-5 text-[#7b5a11cf]'>Roll</td>
+            <td className='border-0 p-5 text-[#7b5a11cf]'>Phone</td>
+            <td className='border-0 p-5 text-[#7b5a11cf]'>Status</td>
+            <td className='border-0 p-5 text-[#7b5a11cf]'>Action</td>
            </tr>
           </thead>
           <tbody>

@@ -8,11 +8,11 @@ import {UserRound} from 'lucide-react'
 import {ChartNoAxesCombined} from 'lucide-react'
 import { Bolt } from 'lucide-react'
 import {ReceiptIndianRupee} from 'lucide-react'
-
+import { Link } from 'react-router-dom' 
 const Sidebar = () => {
   return (
     <>
-            <div className=' bg-[#f8edd5ce] w-60  min-h-screen '>
+            <div className=' bg-[#f8edd5ce] h-screen fixed left-0 top-0 w-60 min-h-screen'> 
             <ul className='text-xl p-2 text-[#7b5a11cf] font-semibold  leading-12'>
               
               <div className='flex justify-center'>
@@ -20,14 +20,14 @@ const Sidebar = () => {
               </div>
               
                 <li>
-                  <a href="#"  className='flex items-center gap-2 p-2 rounded-lg hover:bg-[#F9E4C0] hover:border-b-2 transition-all duration-50'> 
+                  <Link to= '/' className='flex items-center gap-2 p-2 rounded-lg hover:bg-[#F9E4C0] hover:border-b-2 transition-all duration-50'> 
                     <House /><span>Dashboard</span>
-                   </a>
+                   </Link>
                 </li>
                 <li>
-                  <a href="#" className='flex items-center gap-2 p-2 rounded-lg  hover:bg-[#F9E4C0] hover:border-b-2 transition-all duration-50'>
+                  <Link to='/table' className='flex items-center gap-2 p-2 rounded-lg  hover:bg-[#F9E4C0] hover:border-b-2 transition-all duration-50'>
                     <Table /><span>Tables</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a href="#" className='flex items-center gap-2 p-2 rounded-lg hover:bg-[#F9E4C0] hover:border-b-2 transition-all duration-50'>
@@ -40,9 +40,9 @@ const Sidebar = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className='flex items-center gap-2 p-2 rounded-lg  hover:bg-[#F9E4C0] hover:border-b-2 transition-all duration-50'>
+                  <Link to='/staff' className='flex items-center gap-2 p-2 rounded-lg  hover:bg-[#F9E4C0] hover:border-b-2 transition-all duration-50' >
                    <UserRound /> <span>Staff</span>
-                  </a>
+                  </Link>
                 </li>
                   <li>
                   <a href="#" className='flex items-center gap-2 p-2 rounded-lg  hover:bg-[#F9E4C0] hover:border-b-2 transition-all duration-50'>
